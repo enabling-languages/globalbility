@@ -11,9 +11,11 @@ body {
  }
 
 
+/*
 * {
          font-family: "Andika", "Charis SIL", "Gentium Plus", "Noto Sans", sans-serif;
 }
+*/
 
 
        /* Style the text area */
@@ -53,6 +55,14 @@ body {
        body .desktop .kmw-key:hover {
          background: #c0c8cf;
        }
+       .kmw-key-text {
+           font-family: "Andika", "Charis SIL", "Gentium Plus", sans-serif;
+       }
+       .kmw-key-label {
+           display:none;
+       }
+
+/* Site rules */
 .glyph {
     font-size: 1.5em;
 }
@@ -60,4 +70,15 @@ body {
 .kbdimage {
     padding-top: 20px;
     text-align: center;
+}
+
+.elos {
+    background-color: #446e9b;
+    text-align:center;
+    padding: 9px 0;
+    margin-bottom:20px;
+}
+
+.readmore {
+    text-align: right;
 }
