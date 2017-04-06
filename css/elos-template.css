@@ -82,3 +82,7 @@ body {
 .readmore {
     text-align: right;
 }
+
+#kbdhelp {
+    padding-bottom: 5px;
+}

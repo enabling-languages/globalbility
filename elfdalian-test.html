@@ -147,6 +147,9 @@
             <h1>Globalbility keyboard layouts &ndash; Elfdalian</h1>
             <p class="lead">Keyman keyboard layouts for Elfdalian.</p>
 
+            <div id="kbdhelp">
+                <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>A</kbd> = ą <br> <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>E</kbd> = ę<br><kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>I</kbd> = į<br><kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>U</kbd> = ų<br><kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>Y</kbd> = y̨<br><kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>Å</kbd> = ą̊" data-original-title="help" title="Keyboard help" aria-describedby="popover685826" data-html="true">?</button>
+            </div>
             <textarea rows="6" cols="60"></textarea>
 
 
@@ -166,5 +169,10 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
   </body>
 </html>
