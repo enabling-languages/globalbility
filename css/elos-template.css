@@ -2,8 +2,10 @@ body {
   padding-top: 50px;
 }
 .elos-template {
-  padding: 40px 15px;
-  /* text-align: center; */
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
  h1,
  .lead {
@@ -37,7 +39,7 @@ body {
        }
 
        body .desktop .kmw-title-bar,
-       body .desktop .kmw-footer {
+        body .desktop .kmw-footer {
          display: none;
        }
 
@@ -86,3 +88,13 @@ body {
 #kbdhelp {
     padding-bottom: 5px;
 }
+
+.centre {
+    text-align:center;
+}
+
+/*
+ * line breaking and hyphenation
+ */
+
+h1,h2,h3,h4,h5,h6,p {hyphens:auto;}
