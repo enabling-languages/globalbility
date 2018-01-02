@@ -84,27 +84,10 @@
 
         // Watch for the keyboard being shown and set its position
 
-        tavultesoft.keymanweb.osk.addEventListener('show', function() {
-/*          var x = ta.offsetLeft,
-              y = ta.offsetTop + ta.offsetHeight + 8, // a small gap below the text area
-              w = ta.offsetWidth,
-              h = w * 0.4; // a pleasing aspect ratio
-          tavultesoft.keymanweb.osk.setRect({left: x, top: y, width: w, height: h, nomove: true, nosize: true});*/
 
-          var rectParams = {
-            left: ta.offsetLeft,
-            top: ta.offsetTop + ta.offsetHeight + 8, // a small gap below the text area
-            width: ta.offsetWidth,
-            height: ta.offsetWidth * 0.4, // a pleasing aspect ratio
-            nomove: true,
-            nosize: true
-          };
-          tavultesoft.keymanweb.osk.setRect(rectParams);
-
-        });
 
         // Focus text area after everything loads
-
+        //ta.scrollIntoView();
         ta.focus();
       }, false);
     </script>
