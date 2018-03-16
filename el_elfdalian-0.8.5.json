@@ -1,0 +1,19 @@
+{
+  "options" : {
+    "device" : "any",
+    "keyboardBaseUri" : "https://enabling-languages.github.io/globalbility/"
+  },
+  "keyboard" : {
+    "id" : "el_elfdalian",
+    "name" : "Elfdalian",
+    "filename" : "el_elfdalian-0.8.5.js",
+    "version" : "0.8.5",
+    "lastModified" : "2018-03-16T05:44:47+00:00",
+    "languages" : [
+      {
+        "id" : "ovd",
+        "name" : "ovd"
+      }
+      ]
+  }
+}
