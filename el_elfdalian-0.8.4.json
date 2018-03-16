@@ -1,8 +1,7 @@
 {
   "options" : {
     "device" : "any",
-    "keyboardBaseUri" : "https://enabling-languages.github.io/globalbility/elfdalian/",
-    "fontBaseUri" : "https://enabling-languages.github.io/globalbility/elfdalian/"
+    "keyboardBaseUri" : "https://enabling-languages.github.io/globalbility/"
   },
   "keyboard" : {
     "id" : "el_elfdalian",
