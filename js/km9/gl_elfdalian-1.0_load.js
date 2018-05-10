@@ -1,0 +1,1 @@
+KeymanWeb.KRS(new Stub_Keyboard_gl_elfdalian()); function Stub_Keyboard_gl_elfdalian() {this.KF="gl_elfdalian-1.0.js";this.KI="Keyboard_gl_elfdalian";this.KN="Elfdalian";}

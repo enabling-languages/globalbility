@@ -1,0 +1,19 @@
+{
+  "options" : {
+    "device" : "any",
+    "keyboardBaseUri" : "https://enabling-languages.github.io/globalbility/km9/"
+  },
+  "keyboard" : {
+    "id" : "gl_elfdalian",
+    "name" : "Elfdalian",
+    "filename" : "gl_elfdalian-1.0.js",
+    "version" : "1.0",
+    "lastModified" : "2018-05-10T22:59:58+00:00",
+    "languages" : [
+      {
+        "id" : "ovd",
+        "name" : "Elfdalian"
+      }
+      ]
+  }
+}
